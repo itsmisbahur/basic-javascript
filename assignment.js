@@ -35,10 +35,12 @@ function budgetCalculator(watch, mobile, laptop) {
 
 // Hotel Cost Calculation with Multiple Offer
 function hotelCost(duration) {
+    // hotel costing list with discount price
     const dailyCost = 100;
     const discountPrice = 80;
     const megaPrice = 50;
 
+    // hotel costing calculation variable
     const regularCost;
     const discountCost;
     const megaCost;
