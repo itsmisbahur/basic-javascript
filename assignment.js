@@ -12,6 +12,7 @@ function kilometerToMeter(userKilometer) {
     }
 }
 
+
 // Budget Calculator for Watch, Mobile and Laptop
 function budgetCalculator(watch, mobile, laptop) {
     // Specific product price
@@ -32,6 +33,7 @@ function budgetCalculator(watch, mobile, laptop) {
         return "Product input value not valid"
     }
 }
+
 
 // Hotel Cost Calculation with Multiple Offer
 function hotelCost(duration) {
@@ -65,6 +67,7 @@ function hotelCost(duration) {
         return "Wrong Input Value"
     }
 }
+
 
 //Largest name selector
 function megaFriend(nameArrow) {
