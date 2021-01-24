@@ -1,3 +1,5 @@
+
+
 // Kilometer to Meter conveter
 function kilometerToMeter(userKilometer) {
     // 1 kilometer equal 1000 meter
@@ -43,11 +45,11 @@ function hotelCost(duration) {
     const megaPrice = 50;
 
     // hotel costing calculation variable
-    const regularCost;
-    const discountCost;
-    const megaCost;
+    let regularCost;
+    let discountCost;
+    let megaCost;
 
-    if (duration === 0) {
+    if (duration > 0 && duration <= 10) {
         regularCost = duration * dailyCost;
         return regularCost
     } else if (duration > 10 && duration <= 20) {
@@ -68,6 +70,8 @@ function hotelCost(duration) {
     }
 }
 
+var output = hotelCost(-3);
+console.log(output)
 
 //Largest name selector
 function megaFriend(nameArrow) {
